@@ -29,7 +29,7 @@ void receiver()
            printf("\n error detected\n\n"); 
 } 
 
-void crc(){ 
+ crc(){ 
    for(i=0;i<N;i++) 
        check_value[i]=data[i]; 
    do{ 
